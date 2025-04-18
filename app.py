@@ -4,7 +4,7 @@ from utils import extract_text_from_pdf, extract_text_from_docx
 from gemini_chain import get_summary_and_flashcards
 
 st.set_page_config(page_title="Note-ify", layout="centered")
-st.title("📚 Note-ify (Gemini Edition)")
+st.title("📚 Note-ify (Gemini Edition{Free})")
 st.subheader("Summarize Notes & Generate Flashcards Using Gemini AI")
 
 uploaded_file = st.file_uploader("Upload PDF or DOCX", type=["pdf", "docx"])

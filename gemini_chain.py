@@ -3,7 +3,7 @@ import os
 
 genai.configure(api_key="AIzaSyCT56Gh8mbyhe6jdDsaz5bd0ja7BZ4RxMg")  # Replace with your key
 
-model = genai.GenerativeModel("gemini-2.5-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 PROMPT = """
 You are an assistant that helps students study. Based on the following academic note, perform two tasks:
